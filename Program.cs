@@ -28,20 +28,6 @@ namespace vn_mode_csharp_dz24
 
             for (int i = 0; i < arrayNumbers.Length; i++)
             {
-                for (int j = 0; j < arrayNumbers.Length; j++)
-                {
-                    int tempNumber;
-                    if (arrayNumbers[i] < arrayNumbers[j])
-                    {
-                        tempNumber = arrayNumbers[i];
-                        arrayNumbers[i] = arrayNumbers[j];
-                        arrayNumbers[j] = tempNumber;
-                    }
-                }
-            }
-
-            for (int i = 0; i < arrayNumbers.Length; i++)
-            {
                 if ((i+1) < arrayNumbers.Length)
                 {
                     if (arrayNumbers[i] == arrayNumbers[i + 1])
